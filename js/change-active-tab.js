@@ -1,7 +1,6 @@
- <script>
-   function change-active-tab(){ $(".nav .nav-link").on("click", function(){
-       $(".nav").find(".active").removeClass("active");
-            $(this).addClass("active");
-     });
-     }
-  </script>
+$(".nav.navbar-nav").on("click", function(){
+   $(".nav.navbar-nav").find(".active").removeClass("active");
+  debugger;
+   $(this).addClass("active");
+
+});
