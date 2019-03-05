@@ -34,6 +34,13 @@
 
     body { font-family: "Bitstream Vera Serif Bold", serif }
 
+    #footer {
+       <!--position: fixed;-->
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       text-align: center;
+    }
 
     </style>
 
@@ -71,7 +78,24 @@
     </div>
 </div>
 
-<footer class="container-fluid text-center">
+<div class="container-fluid bg-3 text-center">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="resources/minimal-maximal-gq-style-0616-08.jpg" class="img-responsive" style="width:100%"
+                     alt="Los Angeles">
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer id="footer" class="container-fluid text-center">
     <h3 class="">Ukraine, Lviv</h3>
 </footer>
 
